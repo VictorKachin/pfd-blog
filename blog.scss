@@ -1,15 +1,133 @@
 .wrapper-blog__pfd {
-  background-color: aqua;
+  width: 1430px;
+  margin: 1em auto 0;
 
-  h1 {
-    color: red;
+  .blog-header {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .blog-title {
+      width: 170px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      color: #00A1FF;
+    }
+
+    .blog-nav-menu {
+      min-width: 530px;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #232221;
+      }
+    }
+
+    .blog-search {
+      width: 170px;
+      height: 38px;
+      border-bottom: 1px solid #EBECEE;
+      display: flex;
+      align-items: center;
+
+      .blog-search-input {
+
+        input {
+          border: none;
+          background: url("./img/search-icon.png") no-repeat right;
+
+          &::placeholder {
+            font-size: 16px;
+            color: #A4AEB3;
+          }
+        }
+      }
+    }
   }
 
-  .container {
-    background-color: blueviolet;
+  .blog-carousel {
+    background-color: #F8F8F8;
 
-    .text {
-      color: black;
+    h1 {
+      font-weight: 600;
+      font-size: 32px;
+      color: #232221;
+      padding: 1em 0;
     }
+
+    .blog-carousel-block {
+      display: flex;
+
+      .blog-toggle-arrow {
+        cursor: pointer;
+
+        .blog-toggle-arrow__backward {
+          transform: rotate(180deg);
+          //margin: 0;
+          //margin-left: 10px;
+        }
+
+        .blog-toggle-arrow__next {
+          //margin-right: 10px;
+        }
+      }
+
+      .blog-cards {
+
+
+        .show-more-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 30px 0;
+
+          .show-more-button {
+            width: 170px;
+            height: 40px;
+            background-color: #00CCCC;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            text-transform: uppercase;
+            cursor: pointer;
+          }
+        }
+
+
+
+      }
+
+
+    }
+
+    .toggle-blog-carousel {
+      display: flex;
+      justify-content: center;
+
+      span {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 1px solid #E85B96;
+        margin-right: 12px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .toggle-active {
+        background-color: #E85B96;
+      }
+    }
+
   }
 }

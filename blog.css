@@ -1,5 +1,5 @@
 .wrapper-blog__pfd {
-  width: 1430px;
+  max-width: 1430px;
   margin: 1em auto 0;
 }
 .wrapper-blog__pfd .blog-header {
@@ -45,8 +45,13 @@
 }
 .wrapper-blog__pfd .blog-carousel {
   background-color: #F8F8F8;
+  padding-bottom: 44px;
 }
-.wrapper-blog__pfd .blog-carousel h1 {
+.wrapper-blog__pfd .blog-carousel .blog-carousel-title {
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-title h1 {
   font-weight: 600;
   font-size: 32px;
   color: #232221;
@@ -54,6 +59,9 @@
 }
 .wrapper-blog__pfd .blog-carousel .blog-carousel-block {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
 }
 .wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-toggle-arrow {
   cursor: pointer;
@@ -61,13 +69,79 @@
 .wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-toggle-arrow .blog-toggle-arrow__backward {
   transform: rotate(180deg);
 }
-.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .show-more-btn {
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 {
+  width: 370px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-tags span {
+  margin-right: 14px;
+  font-size: 12px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #2B91D7;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-title {
+  margin-top: 10px;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-title h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  color: #232221;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-text {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #232221;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-date span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #979797;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-icons {
+  display: flex;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-icons .blog-icons__item {
+  display: flex;
+  margin-right: 28px;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-icons .blog-icons__item img {
+  margin-right: 8px;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-card-description .blog-icons .blog-icons__item:last-child {
+  margin-right: 0;
+}
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-show-more {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
 }
-.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .show-more-btn .show-more-button {
+.wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-1 .blog-show-more .blog-show-more-btn {
   width: 170px;
   height: 40px;
   background-color: #00CCCC;
@@ -93,6 +167,15 @@
 }
 .wrapper-blog__pfd .blog-carousel .toggle-blog-carousel .toggle-active {
   background-color: #E85B96;
+}
+
+@media (max-width: 1210px) {
+  .wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards {
+    justify-content: space-around;
+  }
+  .wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards .blog-card-last {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,17 @@
+@import 'reset';
+
+.wrapper {
+  background-color: aqua;
+
+  h1 {
+    color: red;
+  }
+
+  .container {
+    background-color: blueviolet;
+
+    .text {
+      color: white
+    }
+  }
+}

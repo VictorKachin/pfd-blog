@@ -1,6 +1,4 @@
-@import 'reset';
-
-.wrapper {
+.wrapper-blog__pfd {
   background-color: aqua;
 
   h1 {
@@ -11,7 +9,7 @@
     background-color: blueviolet;
 
     .text {
-      color: white
+      color: black;
     }
   }
 }

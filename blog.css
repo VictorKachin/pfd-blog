@@ -1,0 +1,14 @@
+.wrapper-blog__pfd {
+  background-color: aqua;
+}
+.wrapper-blog__pfd h1 {
+  color: red;
+}
+.wrapper-blog__pfd .container {
+  background-color: blueviolet;
+}
+.wrapper-blog__pfd .container .text {
+  color: black;
+}
+
+/*# sourceMappingURL=blog.css.map */

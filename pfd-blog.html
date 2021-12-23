@@ -1,224 +1,287 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
-          rel="stylesheet">
-    <title>Blog - PicsForDesign.com</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="blog.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+  <title>Blog - PicsForDesign.com</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="blog.css">
 </head>
 <body>
 
 <main class="wrapper-blog__pfd">
 
-    <div class="blog-header">
+  <div class="blog-header">
+
+    <div class="blog-title">
+      <span>The official blog</span>
+    </div>
+
+    <nav class="blog-nav-menu">
+
+      <div class="blog-nav-menu__link">
+        <a href="#">News</a>
+      </div>
+      <div class="blog-nav-menu__link">
+        <a href="#">Tutorials</a>
+      </div>
+      <div class="blog-nav-menu__link">
+        <a href="#">Updates</a>
+      </div>
+      <div class="blog-nav-menu__link">
+        <a href="#">Info</a>
+      </div>
+      <div class="blog-nav-menu__sort">
+        <a href="#">Sort by</a>
+        <img src="./img/arrow-black-down.png" alt="sort">
+      </div>
+    </nav>
+
+    <div class="blog-search">
+      <label class="blog-search-input">
+        <input type="search" placeholder="Search"/>
+        <!--                <img src="./img/search-icon.png" alt="search">-->
+      </label>
+    </div>
+  </div>
+
+  <!--CAROUSEL Block - START-->
+  <div class="blog-carousel">
+    <div class="blog-carousel-title">
+      <h1>The most popular posts of this month</h1>
+    </div>
+    <div class="blog-carousel-block">
+      <div class="blog-toggle-arrow">
+        <img class="blog-toggle-arrow__backward" src="img/arrow-violet-right.png" alt="next">
+      </div>
+      <div class="blog-cards">
+        <!--1-->
+        <div class="blog-card-1">
+          <div class="blog-card-img">
+            <img src="./img/blog-post-1.png" alt="img">
+          </div>
+          <div class="blog-card-description">
+
+            <div class="blog-tags">
+              <span>post</span>
+              <span>tutorials</span>
+              <span>editor</span>
+              <span>project</span>
+            </div>
+            <div class="blog-title">
+              <h3>Post Editor Lesson 6: A gorgeous photo frame</h3>
+            </div>
+            <div class="blog-text">
+              <p>Hello dear everyone!
+                In this <a href="#">tutorial</a> you'll learn how to create a gorgeous digital frame for your
+                photos.</p>
+            </div>
+            <div class="blog-card-footer">
+              <div class="blog-date">
+                <span>DEC 25, 2021</span>
+              </div>
+              <div class="blog-icons">
+                <div class="blog-icons__item">
+                  <img src="./img/icon-comments.png" alt="comments">
+                  <span class="comments-count">42</span>
+                </div>
+                <div class="blog-icons__item">
+                  <img src="./img/icon-likes.png" alt="likes">
+                  <span class="likes-count">88</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-show-more">
+            <button class="blog-show-more-btn">
+              Show more
+            </button>
+          </div>
+        </div>
+        <!--2-->
+        <div class="blog-card-1">
+          <div class="blog-card-img">
+            <img src="./img/blog-post-2.png" alt="img">
+          </div>
+          <div class="blog-card-description">
+            <div class="blog-tags">
+              <span>post</span>
+              <span>tutorials</span>
+              <span>editor</span>
+              <span>project</span>
+            </div>
+            <div class="blog-title">
+              <h3>Post Editor Lesson 5: Congrats on the beginning of winter!</h3>
+            </div>
+            <div class="blog-text">
+              <p>Hello dear everyone! The weather is getting colder, and it's starting to feel like a real
+                winter.</p>
+            </div>
+            <div class="blog-card-footer">
+              <div class="blog-date">
+                <span>DEC 25, 2021</span>
+              </div>
+              <div class="blog-icons">
+                <div class="blog-icons__item">
+                  <img src="./img/icon-comments.png" alt="comments">
+                  <span class="comments-count">42</span>
+                </div>
+                <div class="blog-icons__item">
+                  <img src="./img/icon-likes.png" alt="likes">
+                  <span class="likes-count">88</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-show-more">
+            <button class="blog-show-more-btn">
+              Show more
+            </button>
+          </div>
+        </div>
+        <!--3-->
+        <div class="blog-card-1 blog-card-last">
+          <div class="blog-card-img">
+            <img src="./img/blog-post-3.png" alt="img">
+          </div>
+          <div class="blog-card-description">
+            <div class="blog-tags">
+              <span>post</span>
+              <span>tutorials</span>
+              <span>editor</span>
+              <span>project</span>
+            </div>
+            <div class="blog-title">
+              <h3>"Vintage" text tutorial by Saskia!</h3>
+            </div>
+            <div class="blog-text">
+              <p>Hey there! Saskia has made a new Vintage Christmas-style
+                tutorial for you to enjoy angel. You can view it here <a href="#">on her blog</a>.</p>
+            </div>
+            <div class="blog-card-footer">
+              <div class="blog-date">
+                <span>DEC 25, 2021</span>
+              </div>
+              <div class="blog-icons">
+                <div class="blog-icons__item">
+                  <img src="./img/icon-comments.png" alt="comments">
+                  <span class="comments-count">42</span>
+                </div>
+
+                <div class="blog-icons__item">
+                  <img src="./img/icon-likes.png" alt="likes">
+                  <span class="likes-count">88</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-show-more">
+            <button class="blog-show-more-btn">
+              Show more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="toggle-arrow">
+        <img class="blog-toggle-arrow__next" src="img/arrow-violet-right.png" alt="next">
+      </div>
+    </div>
+    <div class="toggle-blog-carousel">
+      <span></span><span class="toggle-active"></span><span></span>
+    </div>
+  </div>
+  <!--CAROUSEL Block - END-->
+
+  <section class="blogs-section">
+
+    <div class="blogs-section__left">
+
+      <div class="blog-card-1">
 
         <div class="blog-title">
-            <span>The official blog</span>
+          <h3>Post Editor Lesson 6: A gorgeous photo frame</h3>
         </div>
 
-        <nav class="blog-nav-menu">
-
-            <div class="blog-nav-menu__link">
-                <a href="#">News</a>
-            </div>
-            <div class="blog-nav-menu__link">
-                <a href="#">Tutorials</a>
-            </div>
-            <div class="blog-nav-menu__link">
-                <a href="#">Updates</a>
-            </div>
-            <div class="blog-nav-menu__link">
-                <a href="#">Info</a>
-            </div>
-            <div class="blog-nav-menu__sort">
-                <a href="#">Sort by</a>
-                <img src="./img/arrow-black-down.png" alt="sort">
-            </div>
-        </nav>
-
-        <div class="blog-search">
-            <label class="blog-search-input">
-                <input type="search" placeholder="Search"/>
-                <!--                <img src="./img/search-icon.png" alt="search">-->
-            </label>
+        <div class="blog-card-img">
+          <img src="./img/blog-post-1.png" alt="img">
         </div>
+
+        <div class="blog-card-description">
+
+          <div class="blog-tags">
+            <span>post</span>
+            <span>tutorials</span>
+            <span>editor</span>
+            <span>project</span>
+          </div>
+
+          <div class="blog-text">
+            <p>Hello dear everyone!
+              In this <a href="#">tutorial</a> you'll learn how to create a gorgeous digital frame for your
+              photos.</p>
+          </div>
+          <div class="blog-card-footer">
+            <div class="blog-date">
+              <span>DEC 25, 2021</span>
+            </div>
+            <div class="blog-icons">
+              <div class="blog-icons__item">
+                <img src="./img/icon-comments.png" alt="comments">
+                <span class="comments-count">42</span>
+              </div>
+              <div class="blog-icons__item">
+                <img src="./img/icon-likes.png" alt="likes">
+                <span class="likes-count">88</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-show-more">
+          <button class="blog-show-more-btn">
+            Show more
+          </button>
+        </div>
+      </div>
+
     </div>
 
-    <!--CAROUSEL Block - START-->
-    <div class="blog-carousel">
+    <div class="blogs-section__right">
 
-        <div class="blog-carousel-title">
-            <h1>The most popular posts of this month</h1>
+      <div class="blogs-section__right__card">
+        <div class="heading-card">
+          <span class="title-heading-card">Title</span>
+          <span class="show-more-heading-card">Show more</span>
         </div>
-
-
-        <div class="blog-carousel-block">
-
-            <div class="blog-toggle-arrow">
-                <img class="blog-toggle-arrow__backward" src="img/arrow-violet-right.png" alt="next">
-            </div>
-
-            <div class="blog-cards">
-                <!--1-->
-                <div class="blog-card-1">
-                    <div class="blog-card-img">
-                        <img src="./img/blog-post-1.png" alt="img">
-                    </div>
-                    <div class="blog-card-description">
-
-                        <div class="blog-tags">
-                            <span>post</span>
-                            <span>tutorials</span>
-                            <span>editor</span>
-                            <span>project</span>
-                        </div>
-                        <div class="blog-title">
-                            <h3>Post Editor Lesson 6: A gorgeous photo frame</h3>
-                        </div>
-                        <div class="blog-text">
-                            <p>Hello dear everyone!
-                                In this tutorial you'll learn how to create a gorgeous digital frame for your photos.</p>
-                        </div>
-
-                        <div class="blog-card-footer">
-                            <div class="blog-date">
-                                <span>DEC 25, 2021</span>
-                            </div>
-                            <div class="blog-icons">
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-comments.png" alt="comments">
-                                    <span class="comments-count">42</span>
-                                </div>
-
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-likes.png" alt="likes">
-                                    <span class="likes-count">88</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-show-more">
-                        <button class="blog-show-more-btn">
-                            Show more
-                        </button>
-                    </div>
-
-                </div>
-                <!--2-->
-                <div class="blog-card-1">
-                    <div class="blog-card-img">
-                        <img src="./img/blog-post-2.png" alt="img">
-                    </div>
-                    <div class="blog-card-description">
-
-                        <div class="blog-tags">
-                            <span>post</span>
-                            <span>tutorials</span>
-                            <span>editor</span>
-                            <span>project</span>
-                        </div>
-                        <div class="blog-title">
-                            <h3>Post Editor Lesson 5: Congrats on the beginning of winter!</h3>
-                        </div>
-                        <div class="blog-text">
-                            <p>Hello dear everyone! The weather is getting colder, and it's starting to feel like a real winter.</p>
-                        </div>
-
-                        <div class="blog-card-footer">
-                            <div class="blog-date">
-                                <span>DEC 25, 2021</span>
-                            </div>
-                            <div class="blog-icons">
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-comments.png" alt="comments">
-                                    <span class="comments-count">42</span>
-                                </div>
-
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-likes.png" alt="likes">
-                                    <span class="likes-count">88</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="blog-show-more">
-                        <button class="blog-show-more-btn">
-                            Show more
-                        </button>
-                    </div>
-
-                </div>
-                <!--3-->
-                <div class="blog-card-1 blog-card-last">
-                    <div class="blog-card-img">
-                        <img src="./img/blog-post-3.png" alt="img">
-                    </div>
-                    <div class="blog-card-description">
-
-                        <div class="blog-tags">
-                            <span>post</span>
-                            <span>tutorials</span>
-                            <span>editor</span>
-                            <span>project</span>
-                        </div>
-                        <div class="blog-title">
-                            <h3>"Vintage" text tutorial by Saskia!</h3>
-                        </div>
-                        <div class="blog-text">
-                            <p>Hey there! Saskia has made a new Vintage Christmas-style
-                                tutorial for you to enjoy. angel You can view it here on her blog. </p>
-                        </div>
-
-                        <div class="blog-card-footer">
-                            <div class="blog-date">
-                                <span>DEC 25, 2021</span>
-                            </div>
-                            <div class="blog-icons">
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-comments.png" alt="comments">
-                                    <span class="comments-count">42</span>
-                                </div>
-
-                                <div class="blog-icons__item">
-                                    <img src="./img/icon-likes.png" alt="likes">
-                                    <span class="likes-count">88</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="blog-show-more">
-                        <button class="blog-show-more-btn">
-                            Show more
-                        </button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="toggle-arrow">
-                <img class="blog-toggle-arrow__next" src="img/arrow-violet-right.png" alt="next">
-            </div>
+        <div class="carousel-card-images">
+          <div class="left-block">
+            <img class="left-block-img" src="img/carousel-card_1.png" alt="img">
+          </div>
+          <div class="right-block">
+            <img class="right-block-img" src="img/carousel-card_2.png" alt="img">
+            <img class="right-block-img" src="img/carousel-card_3.png" alt="img">
+            <img class="right-block-img" src="img/carousel-card_4.png" alt="img">
+            <img class="right-block-img" src="img/carousel-card_5.png" alt="img">
+            <img class="right-block-img" src="img/carousel-card_6.png" alt="img">
+            <img class="right-block-img" src="img/carousel-card_7.png" alt="img">
+          </div>
         </div>
-        <div class="toggle-blog-carousel">
-            <span></span><span class="toggle-active"></span><span></span>
+      </div>
+
+      <div class="tags-cloud">
+        <div class="tags-cloud__title">
+          <span>TAG CLOUD</span>
         </div>
+      </div>
+
     </div>
-    <!--CAROUSEL Block - END-->
 
+  </section>
 
 </main>
 </body>

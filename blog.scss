@@ -231,9 +231,10 @@
 
     //LEFT Side styles
     .blogs-section__left {
+      width: 870px;
 
       .blog-card-1 {
-        width: 870px;
+        width: 100%;
         height: 744px;
         margin-bottom: 30px;
         padding: 36px 70px 22px;
@@ -351,10 +352,7 @@
       width: 470px;
 
       .blogs-section__right__card {
-        //width: 470px;
-        //height: 226px;
-        background-color: white;
-        //padding: 10px;
+        width: 100%;
 
         .heading-card {
           display: flex;
@@ -444,6 +442,7 @@
         }
 
         .monthly-pics__img {
+          width: 100%;
 
         }
 
@@ -572,6 +571,7 @@
               color: #725BB3;
             }
           }
+
           .read-post__link a {
             font-weight: 600;
             font-size: 16px;
@@ -635,6 +635,791 @@
     .active {
       border-color: #1890FF;
       color: #1890FF;
+    }
+  }
+}
+
+@media (max-width: 1430px) {
+  .wrapper-blog__pfd {
+
+    //HEADER
+    .blog-header {
+
+      .blog-title {
+
+      }
+
+      .blog-nav-menu {
+
+        a {
+
+        }
+      }
+
+      .blog-search {
+
+        .blog-search-input {
+
+          input {
+
+            &::placeholder {
+
+            }
+          }
+        }
+      }
+    }
+
+    //CAROUSEL
+    .blog-carousel {
+
+      .blog-carousel-title {
+
+        h1 {
+
+        }
+      }
+
+      .blog-carousel-block {
+
+        .blog-toggle-arrow {
+
+          .blog-toggle-arrow__backward {
+
+          }
+
+          .blog-toggle-arrow__next {
+
+          }
+        }
+
+        .blog-cards {
+
+          .blog-card-1 {
+
+            .blog-card-img {
+
+            }
+
+            .blog-card-description {
+
+              .blog-tags {
+                span {
+
+                }
+              }
+
+              .blog-title {
+
+                h3 {
+
+                }
+              }
+
+              .blog-text {
+
+                p {
+
+
+                  a {
+
+                  }
+                }
+              }
+
+              .blog-card-footer {
+
+
+                .blog-date {
+                  span {
+
+                  }
+                }
+
+                .blog-icons {
+
+
+                  .blog-icons__item {
+
+
+                    img {
+
+                    }
+
+                    &:last-child {
+
+                    }
+                  }
+                }
+              }
+            }
+
+            .blog-show-more {
+
+              .blog-show-more-btn {
+
+              }
+            }
+          }
+        }
+      }
+
+      .toggle-blog-carousel {
+
+        span {
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        .toggle-active {
+
+        }
+      }
+    }
+
+    //BLOGS
+    .blogs-section {
+
+      //LEFT Side styles
+      .blogs-section__left {
+
+        .blog-card-1 {
+
+          .blog-title {
+            h3 {
+
+            }
+          }
+
+          .blog-card-img {
+            img {
+
+            }
+          }
+
+          .blog-card-description {
+
+            .blog-tags {
+              span {
+
+              }
+            }
+
+            .blog-text {
+
+
+              p {
+
+                a {
+
+                }
+              }
+            }
+
+            .blog-card-footer {
+
+              .blog-date {
+                span {
+
+                }
+              }
+
+              .blog-icons {
+
+                .blog-icons__item {
+
+                  img {
+
+                  }
+
+                  &:last-child {
+
+                  }
+
+                  .comments-count, .likes-count {
+
+                  }
+                }
+              }
+            }
+          }
+
+          .blog-show-more {
+
+            .blog-show-more-btn {
+
+            }
+          }
+        }
+      }
+
+      //RIGHT Side styles
+      .blogs-section__right {
+
+        .blogs-section__right__card {
+
+          .heading-card {
+
+            .title-heading-card {
+
+            }
+
+            .show-more-heading-card {
+
+            }
+          }
+
+          .carousel-card-images {
+            column-gap: 6px;
+
+            .left-block {
+
+              .left-block-img {
+
+              }
+
+            }
+
+            .right-block {
+
+              .right-block-img {
+
+              }
+            }
+          }
+        }
+
+        .tags-cloud {
+
+          .tags-cloud__title {
+
+          }
+
+          .tags-all {
+
+          }
+        }
+
+        .monthly-pics {
+
+
+          .monthly-pics__title {
+
+
+          }
+
+          .monthly-pics__img {
+
+          }
+
+          .monthly-pics__text {
+
+          }
+
+        }
+
+        .poll {
+
+          .poll__title {
+
+          }
+
+          .vote {
+
+            input {
+
+            }
+
+          }
+
+          .poll-vote {
+
+            .poll-vote-btn {
+
+            }
+          }
+
+        }
+
+      }
+    }
+
+    //CAROUSEL Recent Comments Block
+    .comments-carousel {
+
+      .comments-carousel__title {
+
+        h3 {
+
+        }
+      }
+
+      .comments-carousel-block {
+
+        .blog-toggle-arrow {
+
+          .blog-toggle-arrow__backward {
+
+          }
+
+          .blog-toggle-arrow__next {
+
+          }
+        }
+
+        .comments-card {
+
+          .comments-card-1 {
+
+            .comments-text {
+              p {
+
+              }
+
+              .name-author__link a {
+
+              }
+            }
+
+            .read-post__link a {
+
+            }
+          }
+        }
+      }
+
+      .toggle-blog-carousel {
+
+        span {
+
+          &:last-child {
+
+          }
+        }
+
+        .toggle-active {
+
+        }
+      }
+    }
+
+    //PAGINATION
+    .pagination {
+
+
+      .prev, .next, .page-num {
+
+      }
+
+      .prev {
+
+      }
+
+      .page-num {
+
+      }
+
+      .active {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .wrapper-blog__pfd {
+
+    //HEADER
+    .blog-header {
+
+      .blog-title {
+
+      }
+
+      .blog-nav-menu {
+
+        a {
+
+        }
+      }
+
+      .blog-search {
+
+        .blog-search-input {
+
+          input {
+
+            &::placeholder {
+
+            }
+          }
+        }
+      }
+    }
+
+    //CAROUSEL
+    .blog-carousel {
+
+      .blog-carousel-title {
+
+        h1 {
+
+        }
+      }
+
+      .blog-carousel-block {
+
+        .blog-toggle-arrow {
+
+          .blog-toggle-arrow__backward {
+
+          }
+
+          .blog-toggle-arrow__next {
+
+          }
+        }
+
+        .blog-cards {
+
+          .blog-card-1 {
+
+            .blog-card-img {
+
+            }
+
+            .blog-card-description {
+
+              .blog-tags {
+                span {
+
+                }
+              }
+
+              .blog-title {
+
+                h3 {
+
+                }
+              }
+
+              .blog-text {
+
+                p {
+
+
+                  a {
+
+                  }
+                }
+              }
+
+              .blog-card-footer {
+
+
+                .blog-date {
+                  span {
+
+                  }
+                }
+
+                .blog-icons {
+
+
+                  .blog-icons__item {
+
+
+                    img {
+
+                    }
+
+                    &:last-child {
+
+                    }
+                  }
+                }
+              }
+            }
+
+            .blog-show-more {
+
+              .blog-show-more-btn {
+
+              }
+            }
+          }
+        }
+      }
+
+      .toggle-blog-carousel {
+
+        span {
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        .toggle-active {
+
+        }
+      }
+    }
+
+    //BLOGS
+    .blogs-section {
+      column-gap: 20px;
+      display: flex;
+      justify-content: space-around;
+
+      //LEFT Side styles
+      .blogs-section__left {
+
+        .blog-card-1 {
+
+          .blog-title {
+            h3 {
+
+            }
+          }
+
+          .blog-card-img {
+            img {
+
+            }
+          }
+
+          .blog-card-description {
+
+            .blog-tags {
+              span {
+
+              }
+            }
+
+            .blog-text {
+
+
+              p {
+
+                a {
+
+                }
+              }
+            }
+
+            .blog-card-footer {
+
+              .blog-date {
+                span {
+
+                }
+              }
+
+              .blog-icons {
+
+                .blog-icons__item {
+
+                  img {
+
+                  }
+
+                  &:last-child {
+
+                  }
+
+                  .comments-count, .likes-count {
+
+                  }
+                }
+              }
+            }
+          }
+
+          .blog-show-more {
+
+            .blog-show-more-btn {
+
+            }
+          }
+        }
+      }
+
+      //RIGHT Side styles
+      .blogs-section__right {
+        width: 224px;
+
+        .blogs-section__right__card {
+
+          .heading-card {
+
+            .title-heading-card {
+
+            }
+
+            .show-more-heading-card {
+
+            }
+          }
+
+          .carousel-card-images {
+            flex-direction: column;
+            row-gap: 6px;
+            align-items: center;
+
+            .left-block {
+
+              .left-block-img {
+                width: 100%;
+
+              }
+
+            }
+
+            .right-block {
+
+              .right-block-img {
+
+              }
+            }
+          }
+        }
+
+        .tags-cloud {
+
+          .tags-cloud__title {
+
+          }
+
+          .tags-all {
+
+          }
+        }
+
+        .monthly-pics {
+
+
+          .monthly-pics__title {
+
+
+          }
+
+          .monthly-pics__img {
+
+          }
+
+          .monthly-pics__text {
+
+          }
+
+        }
+
+        .poll {
+
+          .poll__title {
+
+          }
+
+          .vote {
+
+            input {
+
+            }
+
+          }
+
+          .poll-vote {
+
+            .poll-vote-btn {
+
+            }
+          }
+
+        }
+
+      }
+    }
+
+    //CAROUSEL Recent Comments Block
+    .comments-carousel {
+
+      .comments-carousel__title {
+
+        h3 {
+
+        }
+      }
+
+      .comments-carousel-block {
+
+        .blog-toggle-arrow {
+
+          .blog-toggle-arrow__backward {
+
+          }
+
+          .blog-toggle-arrow__next {
+
+          }
+        }
+
+        .comments-card {
+
+          .comments-card-1 {
+
+            .comments-text {
+              p {
+
+              }
+
+              .name-author__link a {
+
+              }
+            }
+
+            .read-post__link a {
+
+            }
+          }
+        }
+      }
+
+      .toggle-blog-carousel {
+
+        span {
+
+          &:last-child {
+
+          }
+        }
+
+        .toggle-active {
+
+        }
+      }
+    }
+
+    //PAGINATION
+    .pagination {
+
+
+      .prev, .next, .page-num {
+
+      }
+
+      .prev {
+
+      }
+
+      .page-num {
+
+      }
+
+      .active {
+
+      }
     }
   }
 }
@@ -783,6 +1568,4 @@
 
 }
 
-@media (max-width: 910px) {
 
-}

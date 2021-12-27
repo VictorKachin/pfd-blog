@@ -177,8 +177,11 @@
   justify-content: space-between;
   column-gap: 2em;
 }
-.wrapper-blog__pfd .blogs-section .blogs-section__left .blog-card-1 {
+.wrapper-blog__pfd .blogs-section .blogs-section__left {
   width: 870px;
+}
+.wrapper-blog__pfd .blogs-section .blogs-section__left .blog-card-1 {
+  width: 100%;
   height: 744px;
   margin-bottom: 30px;
   padding: 36px 70px 22px;
@@ -269,7 +272,7 @@
   width: 470px;
 }
 .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card {
-  background-color: white;
+  width: 100%;
 }
 .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card .heading-card {
   display: flex;
@@ -341,6 +344,9 @@
   line-height: 32px;
   text-transform: uppercase;
   color: #232221;
+}
+.wrapper-blog__pfd .blogs-section .blogs-section__right .monthly-pics .monthly-pics__img {
+  width: 100%;
 }
 .wrapper-blog__pfd .blogs-section .blogs-section__right .monthly-pics .monthly-pics__text {
   margin-top: 10px;
@@ -490,6 +496,35 @@
   color: #1890FF;
 }
 
+@media (max-width: 1430px) {
+  .wrapper-blog__pfd .blog-carousel .toggle-blog-carousel span:last-child {
+    margin-right: 0;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card .carousel-card-images {
+    column-gap: 6px;
+  }
+}
+@media (max-width: 1350px) {
+  .wrapper-blog__pfd .blog-carousel .toggle-blog-carousel span:last-child {
+    margin-right: 0;
+  }
+  .wrapper-blog__pfd .blogs-section {
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__right {
+    width: 224px;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card .carousel-card-images {
+    flex-direction: column;
+    row-gap: 6px;
+    align-items: center;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card .carousel-card-images .left-block .left-block-img {
+    width: 100%;
+  }
+}
 @media (max-width: 1210px) {
   .wrapper-blog__pfd .blog-carousel .blog-carousel-block .blog-cards {
     justify-content: space-around;

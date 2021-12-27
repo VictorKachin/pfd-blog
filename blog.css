@@ -533,5 +533,25 @@
     display: none;
   }
 }
+@media (max-width: 910px) {
+  .wrapper-blog__pfd .blog-header {
+    padding: 0 40px;
+  }
+  .wrapper-blog__pfd .blog-header .blog-search {
+    display: none;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__left .blog-card-1 {
+    padding: 22px;
+  }
+  .wrapper-blog__pfd .blogs-section .blogs-section__right .blogs-section__right__card .carousel-card-images {
+    column-gap: 6px;
+  }
+  .comments-carousel .comments-carousel-block .comments-card .comments-card-1.four {
+    display: none;
+  }
+  .pagination .prev {
+    background: #F5F5F5;
+  }
+}
 
 /*# sourceMappingURL=blog.css.map */
